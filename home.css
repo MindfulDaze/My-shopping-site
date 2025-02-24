@@ -1,0 +1,331 @@
+body{
+    background-image:url(../image/bg.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+    }
+ #container{
+    margin: auto;
+    text-align: center;
+    width: 1000px;
+    margin-top: 70px;
+    
+ }   
+ h1{
+    align-items: center;
+    border: 2px solid yellowgreen;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(166,20,185,1) 35%, rgba(0,212,255,1) 100%);
+    color: rgb(2,0,36);
+     color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(93,185,20,0.5387197115174195) 35%, rgba(0,212,255,1) 100%);
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     padding: 50px;
+     
+ }
+ .navbar{
+    margin-top: -8px;
+ }
+ .carousel-item img{
+   height: 250px;
+   width: 200px;
+   margin: auto;
+   padding: 5px;
+   box-sizing: border-box;
+ }
+#slide{
+   width: 1000px;
+   border: 2px solid blue;
+   padding: 15px;
+   background-color: cadetblue;
+   margin: auto;
+   scroll-behavior: smooth;
+}
+.carousel slide{
+scroll-behavior: smooth;
+}
+.myRow{
+   background-color: #11D3F3;
+   margin: auto;
+   width: 1000px;
+}
+.myRow button{
+   background-color:lightgreen;
+}
+#flexOutput
+{
+   
+   float: right;
+   width: 400px;
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(98,234,32,1) 0%, rgba(24,192,226,1) 82%);
+   box-sizing: border-box;
+   margin-top:-933px ;
+   padding-left:50px;
+   position: sticky;
+   margin-left: 860px;
+   
+}
+#flexOutput button
+{
+color: #f6f6fd;
+border-radius: 7px;
+margin: 5px;
+}
+
+
+body{
+   position:sticky;
+}
+
+
+
+#flexContainer
+{
+height:430px;
+overflow-y:auto;
+position:fixed;
+top:61px;
+right:10px;
+display:flex;
+flex-direction:column;
+width:340px;
+padding:0px;
+box-sizing:border-box;
+z-index:3;
+
+}
+
+#flexContainer H2
+{
+	align-self:flex-start;
+	color:rgb(172, 201, 218);
+	margin:0px;
+	padding:0px;
+	width:320px;
+	font-weight: bold;
+	
+}
+
+#flexContainer div
+{
+	width:320px;
+	border:1px solid red;
+	border-radius:3%;
+	background-image:linear-gradient(to right bottom,orange,yellow);
+	height:160px;
+	padding:20px;
+	box-sizing:border-box;
+	margin:0px;
+	
+}
+
+#flexContainer hr
+{
+	margin:0px;
+	padding:0px;
+}
+
+#flexContainer button
+{
+	float:right;
+	margin:auto 5px auto auto;
+}
+#flexContainer input
+{
+   margin-left: 30px;
+}
+#flexContainer #buttons
+{
+	padding:0px;
+	height:auto;
+}
+
+
+
+#finalBill
+{
+	padding:0px;
+	width:550px;
+	border-radius:3%;
+	box-sizing:border-box;
+	height:560px;
+	position:fixed;
+    top:50px;
+    left:500px;
+    z-index:5;
+    display:none;	
+	
+}
+
+#finalBill #bankInfo
+{
+	width:400px;
+	height:200px;
+	display:none;
+	padding:10px;
+	box-sizing:border-box;
+	border:1px solid black;
+	border-radius:3%;
+	margin:10px -50px;
+}
+
+#bankInfo img
+{
+	width:30px;
+	margin:auto auto auto 15px;
+}
+
+
+#finalBill #billTable
+{
+	width:450px;
+	height:310px;
+	background-color:#cf459a;
+	border-radius:3%;
+    padding:5px;
+    overflow-y:auto;
+    border:1px solid rgb(249, 75, 75);
+    box-sizing:border-box;
+    margin-left:-60px;
+	margin-top: -30px
+    
+}
+
+#finalBill h2
+{
+	margin:auto;
+	padding:0px;
+	color:white;
+	
+}
+
+#bankInfo input[type="text"]
+{
+	border-radius:4px;
+	border:1px solid black;
+}
+
+#bankInfo input[type="password"]
+{
+	border-radius:4px;
+}
+
+.table-product-heading
+{
+	width:140px;
+	height:50px;
+	padding:10px;
+	box-sizing:border-box;
+	color:white;
+	text-align:center;
+	
+}
+
+.table-items-heading
+{
+	width:50px;
+	height:50px;
+	padding:10px;
+	box-sizing:border-box;
+	color:white;
+	text-align:center;
+}
+
+.table-product-content
+{
+	width:140px;
+	height:140px;
+	padding:10px;
+	box-sizing:border-box;
+	text-align:center;
+}
+
+.table-product-items
+{
+	width:50px;
+	height:140px;
+	text-align:center;
+	padding:10px;
+	box-sizing:border-box;
+	color:white;
+}
+
+.table-product-total
+{
+	width:60px;
+	padding:20px;
+	text-align:center;
+	height:140px;
+	box-sizing:border-box;
+	color:white;
+}
+
+.table-total-heading
+{
+	width:70px;
+	height:50px;
+	padding:20px;
+	box-sizing:border-box;
+	color:white;
+	text-align:center;
+	font-weight: bold;
+}
+
+#billTable table
+{
+	width:200px;
+	height:auto;
+	margin:auto;
+	border:2px solid white;
+	border-collapse:collapse;
+}
+#billTable th,td
+{
+	color:white;
+	border:2px solid white;
+	font-weight:600;
+}
+
+#finalBill #buttons2
+{
+	width:530px;
+	height:50px;
+	padding:0px 10px 0px 10px;
+	box-sizing:border-box;
+	
+}
+
+#buttons2 #backToCart
+{
+	float:left;
+	margin:0px auto 0px 10px;
+	height:50px;
+	box-sizing:border-box;
+	margin-left: -70PX;
+	margin-top: 5px;
+}
+
+#buttons2 #pay
+{
+	float:right;
+	margin:0px 10px 0px auto;
+	height:50px;
+	margin-right: 160PX;
+	margin-top: 5px;
+}
+#bankInfo
+{
+	width: 300px;
+}
+
+
+@font-face
+{
+	src:url(../fonts/COMICATE.TTF);
+	font-family:myFont;
+	
+}
